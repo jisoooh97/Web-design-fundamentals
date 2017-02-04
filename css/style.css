@@ -9,6 +9,45 @@ body {
     margin: 0 auto 0 auto;
 }
 
+
+/* for main nav */
+
+li {
+    display: inline;
+}
+
+li {
+    margin: 0;
+    padding: 0 0 20px 10px;
+}
+
+li ul, li li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+
+li a:link, li a:visited {
+    float: left;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0 10px 4px 10px;
+    text-decoration: none;
+    color: #999;
+}
+
+li a:link#current, li a:visited#current, li a:hover {
+    border-bottom: 4px solid #000;
+    padding-bottom: 2px;
+    background: transparent;
+    color: #000;
+}
+
+li a:hover {
+    color: #000;
+}
+
 .red-box {
     width: 200px;
     height: 200px;
