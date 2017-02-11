@@ -4,9 +4,43 @@ body {
 
 .container {
     width: 800px;
-    border: 1px solid #000000;
+    border: 3px solid #964145;
     padding: 20px;
     margin: 0 auto 0 auto;
+}
+
+header {
+    background-color: #964145;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5)
+}
+
+
+/*cool effect for h1 font*/
+
+.jump span {
+    display: inline-block;
+    transition: transform 0.2s;
+    cursor: url('http://csscursor.info/source/santahand.png'), default;
+}
+
+.jump span:hover {
+    color: #000000;
+    transform: translateY(-20px) rotate(10deg) scale(2);
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 10px 10px 10px;
 }
 
 
@@ -19,6 +53,10 @@ li {
 li {
     margin: 0;
     padding: 0 0 20px 10px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
 }
 
 li ul, li li {
@@ -34,7 +72,7 @@ li a:link, li a:visited {
     font-weight: bold;
     margin: 0 10px 4px 10px;
     text-decoration: none;
-    color: #999999;
+    color: #964145;
 }
 
 li a:link#current, li a:visited#current, li a:hover {
@@ -69,4 +107,5 @@ li a:hover {
 
 footer {
     clear: both;
+    border-top: 1px solid #964145;
 }
